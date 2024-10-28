@@ -1,0 +1,27 @@
+un consecionario de autos, en este se venden automoviles, de los cuales la empresa desea saber, patente, marca, modelo, y kilometraje.
+el consecionario tiene clientes, que son los que compran los automoviles, se desea saber, dni, nombre, apellido, y un telefon ode contacto.
+un cliente puede comprar varios autos, pero un auto esta solamente está asignado a un cliente.
+el concesionmario tiene tambien servicio de reparacion. los cules son mecanicos, los cuales se registra legajo, nombre, apellido,  y se registra el sueldo.
+los mecanicos tienen asignados uno o varios automoviles. y al mismo tiempo el auto puede ser reparado por varios mecanicos.
+
+datos:
+clientes.
+mecanicos.
+autos.
+
+tablas:
+clientes: dni, nombre, apellido, telefono.
+
+mecanico: legajo, nombre, apellido, sueldo.
+
+auto: patente, marca, modelo, kilometraje.
+
+
+crear el der
+
+consultas:
+1) mostrar nombre y apellido y la marca y modelo que compraron automoviles. LISTO
+2) mostrar nombre y apellido del cliente, las marca del auto y que tengan el kilometraje mayor a 100000. LISTO
+3) mostrar nombre y apellido de los mecanicos y que marca y modelo de automoviles reparan. LISTO
+4) mostrar nombre y apellido de los mecanicos con el modelo de automoviles cuando el kilometraje sea menor a 100000. LISTO
+5) mostrar nombre y apellido del cliente y nombre y apellido de los mecanicos que reparan su auto. LISTO

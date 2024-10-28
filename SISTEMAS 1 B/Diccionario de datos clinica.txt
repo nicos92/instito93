@@ -1,0 +1,25 @@
+PACIENTE = DNI, nombre, apellido, direccion( calle, numero, cp), diagnostico
+CAMA = sector de la clinica, numero cama, fecha de internacion
+ENFERMERO = DNI, nombre, apellido
+MEDICO = nombre, apellido, especialidad
+HISTORIA CLINICA = MEDICO, PACIENTE, DESCRIPCION
+
+APELLIDO = { CARACTER LEGAL }
+CALLE = { CARACTER LEGAL }
+CARACTER LEGAL = [A-Z|a-z|'| |]
+CARACTE NUMERICO = [0-9]
+DESCRIPCION = { CARACTER LEGAL + CARACTER NUMERICO }
+CLINICA = { CARCTER LEGAL }
+CP = {CARACTE NUMERICO}
+DNI = {CARACTE NUMERICO}
+DIAGNOSTICO = { CARACTER LEGAL }
+DIRECCION = { CALLE + NUMERO + CP }
+ESPECIALIDAD = { CARACTER LEGAL }
+FECHA INTERNACION = [yyyy-MM-dd]
+NOMBRE = { CARACTER LEGAL } 
+NUMERO = {CARACTE NUMERICO}
+NUMERO CAMA = {CARACTER NUMERICO}
+SECTOR CLINICA = { CARACTER LEGAL | CARACTE NUMERICO }
+
+
+agregar comentarios para ue sirven los campos

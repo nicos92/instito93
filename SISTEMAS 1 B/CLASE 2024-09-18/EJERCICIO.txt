@@ -1,0 +1,7 @@
+biblioteca sarmiento desea registrar el prestramo de sus kibros a los socios del libro se desea registrar titulo, codigo de cada libro tiene varias ediciones
+de las ediciones se desea registrar isbn y año
+los usuarios se registra codigo, nombre, apellido, telefono.
+tambien se desea registrar autores de los libros
+nombre, apellido, dni, edad
+el usuario es quien retira los ejemplares, un usuario puede retirar uno o varios ejemplares, un libro puede tener varios autores y al mismo tiempo tener varios libros.
+los libros pueden contener muchas ediciones pero una edicin un solo libro

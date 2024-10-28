@@ -1,0 +1,18 @@
+paso 1 
+crear el diagrama entidad relacion con la entidad "automovil" con los campos(patente, marca, modelo, kilometraje)
+
+paso 2
+armar el modelo relacional
+
+paso 3
+crear la base de datos consecionario
+
+paso 4
+insertar datos, por lo menos 10 filas
+
+paso 5
+hacer las siguientes consultas
+a- mostrar las patentes, marcas y los modelos de los autos
+b- mostrar las patentes y los kilometrajes cuando los kilometros sean mayor a 50000
+c- mostrar marca y modelo de los autos cuando la marca sea ford
+d- mostrar marca, modelo y kilometraje cuando la marca sea ford y el kilometraje menor a 50000

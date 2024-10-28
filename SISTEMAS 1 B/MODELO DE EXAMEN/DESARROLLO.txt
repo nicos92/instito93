@@ -1,0 +1,23 @@
+DFD diagrama de flujo de datos
+diagrama de contexto
+terminales, relaciones, almacenes, procesos.
+
+el cliente, se registra, ordena, 
+
+Diccionario de datos.
+
+DER diagrama entidad relacion.
+
+MR modelo relacional
+
+Access
+
+Flujos de procesos
+
+
+comensales: se registra, pide, solicita cuenta, paga la cuenta, deja la mesa.
+camarero: toma pedido, lleva pedido a cocina, entrega pedido.
+cocina: recibe pedido, realiza pedido, entrega pedido.
+
+
+

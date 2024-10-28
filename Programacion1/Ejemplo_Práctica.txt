@@ -1,0 +1,43 @@
+using System;
+
+namespace VirtualClass_15082023
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int fila = 8;
+            int col = 8;
+
+            int[,] matriz2 = new int[fila, col];
+            Random rnd = new Random();
+            int contador = 0;
+
+            for (int f = 0; f < fila; f++)
+            {
+                for (int c = 0; c < col; c++)
+                {
+                    matriz2[f, c] = rnd.Next(1, 10);
+                    Console.Write(matriz2[f, c] + " ");
+                }
+                Console.WriteLine();
+            }
+
+            Console.Write("\n\nQue valor desea buscar y contar? (valor entre 1 y 9, y luego presione ENTER):");
+            int valor = Convert.ToInt32(Console.ReadLine());
+
+            for (int f = 0; f < fila; f++)
+            {
+                for (int c = 0; c < col; c++)
+                {
+                    if (matriz2[f, c] == valor) contador++;
+                }
+            }
+
+            Console.Write("\n\nEl número " + valor + " apareció un total de " + contador + " veces.");
+
+            Console.ReadKey();
+        }
+    }
+}
+
